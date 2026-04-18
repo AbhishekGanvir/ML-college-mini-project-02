@@ -26,7 +26,7 @@ def extract_text_ocr_space(image_bytes):
         url,
         files={"file": image_bytes},
         data={
-            "apikey": "helloworld",
+            "apikey": os.getenv("API_KEY"),
             "language": "eng"
         }
     )
