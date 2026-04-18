@@ -1,3 +1,4 @@
+from flask_cors import CORSv
 from flask import Flask, request, jsonify
 import joblib
 import requests
@@ -37,6 +38,7 @@ else:
 # INIT APP
 # ==============================
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # ==============================
 # OCR FUNCTION
