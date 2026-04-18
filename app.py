@@ -102,7 +102,6 @@ def analyze():
         # ==============================
         extracted_text = extract_text_ocr_space(image_bytes, filename)
 
-        print("EXTRACTED TEXT:", extracted_text)
 
         if not extracted_text.strip():
             return jsonify({"error": "No text detected"}), 400
