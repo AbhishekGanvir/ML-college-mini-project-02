@@ -1,0 +1,28 @@
+app2.py
+app3.py
+test.py
+utils1.py
+app3.py
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (optional - if large)
+# *.pkl
